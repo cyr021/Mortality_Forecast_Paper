@@ -42,7 +42,7 @@ seed = 5
 
 results = []
 names = []
-scoring = 'accuracy'
+scoring = 'f1_macro'
 
 plt.figure()
 

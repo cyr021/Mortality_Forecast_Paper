@@ -89,7 +89,7 @@ def load_data(filename, col_types, selector=None, auto=True):
     )
     X_resampled, y_resampled = kmeans_smote.fit_sample(X, y)
     # print('type(X_resampled): ', type(X_resampled))
-    # X =pd.DataFrame(X, columns=names[selector.get_support()])
+    X = pd.DataFrame(X, columns=names[selector.get_support()])
 
     [print('Class {} has {} instances after oversampling'.format(label, count))
      for label, count in zip(*np.unique(y_resampled, return_counts=True))]
