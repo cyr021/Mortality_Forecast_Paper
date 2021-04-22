@@ -4,6 +4,9 @@
 .Ruserdata
 .ipynb_checkpoints
 .idea
-*.csv
+# *.csv
 code/
+*-raw*
+*.ipynb
+
 
