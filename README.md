@@ -13,4 +13,4 @@ We identified patients who were diagnosed as pelvic, acetabular, or combined pel
 ![img](./img.PNG)
 
 ## License
-Licensed under the Apache License, Version 2.0.
+Licensed under the [MIT License](https://github.com/mit-lcp/mimic-code/blob/master/LICENSE).
